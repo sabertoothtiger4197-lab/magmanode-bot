@@ -10,7 +10,7 @@ app.listen(process.env.PORT || 3000);
 function createBot() {
       const bot = mineflayer.createBot({
         host: '46.224.7.62', 
-        port: 25683,               
+        port: 25684,               
         username: 'MagmaBot247',
 
         username: 'MagmaBot247',
