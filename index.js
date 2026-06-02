@@ -8,13 +8,11 @@ app.listen(process.env.PORT || 3000);
 
 // 2. Your Minecraft Bot logic
 function createBot() {
-      const bot = mineflayer.createBot({
-        host: '91.98.80.233:25567', 
+    const bot = mineflayer.createBot({
+        host: '91.98.80.233', // Removed the colon and port from here
         port: 25567,               
         username: 'Fiddler247',
-
-        username: 'Fiddler247',
-        version: '1.21.11'          // Change to match your server version
+        version: '1.21.1'     // Note: Ensure this matches an actual release version (e.g., 1.21.1)
     });
 
     bot.on('spawn', () => console.log('Bot logged in!'));
