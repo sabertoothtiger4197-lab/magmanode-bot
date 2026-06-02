@@ -12,7 +12,7 @@ function createBot() {
         host: '91.98.80.233', // Removed the colon and port from here
         port: 25567,               
         username: 'Fiddler247',
-        version: '1.21.1'     // Note: Ensure this matches an actual release version (e.g., 1.21.1)
+        version: '1.21.11'     // Note: Ensure this matches an actual release version (e.g., 1.21.1)
     });
 
     bot.on('spawn', () => console.log('Bot logged in!'));
