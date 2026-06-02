@@ -9,11 +9,11 @@ app.listen(process.env.PORT || 3000);
 // 2. Your Minecraft Bot logic
 function createBot() {
       const bot = mineflayer.createBot({
-        host: '46.224.7.62', 
-        port: 25684,               
-        username: 'MagmaBot247',
+        host: '91.98.80.233:25567', 
+        port: 25567,               
+        username: 'Fiddler247',
 
-        username: 'MagmaBot247',
+        username: 'Fiddler247',
         version: '1.21.11'          // Change to match your server version
     });
 
